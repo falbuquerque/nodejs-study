@@ -5,7 +5,11 @@ var results = []
 var calls = 3
 
 function print() {
-  for (var i = 0; i < calls; i++) console.log(results[i])
+
+  for (var i = 0; i < calls; i++) {
+    console.log(results[i])
+  }
+
 }
 
 function get(index) {
@@ -13,9 +17,15 @@ function get(index) {
     response.pipe(bl(function(err, data) {
       results[index] = data.toString()
       count++
-      if (count == calls) print()
+
+      if (count == calls) {
+        print()
+      }
+
     }))
   })
 }
 
-for (var i = 0; i < calls; i++) get(i)
+for (var i = 0; i < calls; i++) {
+  get(i)
+}
