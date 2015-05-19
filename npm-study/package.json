@@ -1,0 +1,21 @@
+{
+  "name": "npm-study",
+  "version": "1.0.1",
+  "description": "Study of NPM packaging",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "falbuquerque",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/falbuquerque/nodejs-study.git"
+  },
+  "bugs": {
+    "url": "https://github.com/falbuquerque/nodejs-study/issues"
+  },
+  "homepage": "https://github.com/falbuquerque/nodejs-study#readme"
+}
